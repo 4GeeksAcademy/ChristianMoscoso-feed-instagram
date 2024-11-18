@@ -1,0 +1,38 @@
+body{
+    background: silver;
+    margin: 0;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+header h1{
+    margin: 10px;
+    text-align: center;
+}
+div.container {
+    width: 600px;
+    margin: auto;
+    
+}
+div.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: o 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.post-imagen img {
+    width: 100%;
+}
+
+div.post{
+    background: white;
+    margin: 25px;
+    text-align: justify;
+}
+
+header h2, div.post p{
+    padding: 15px;
+}
